@@ -1,0 +1,51 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.images {
+    display: flex;
+    margin: 70px 0px 0px 0px;
+    overflow: hidden;
+}
+
+.fiftysix_img {
+    height: 342px;
+    width: 100%;
+    padding-right: 24px;
+}
+
+.fiftyseven_img {
+    height: 342px;
+    width: 100%;
+    margin-right: 20px;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 1149px) {
+    .fiftyseven_img {
+        width: 64%;
+    }
+}
+
+@media only screen and (max-width: 959px) {
+    .images {
+        display: block;
+    }
+
+    .fiftysix_img {
+        width: 100%;
+        padding-right: 0;
+    }
+
+    .fiftyseven_img {
+        width: 100%;
+        padding-right: 0;
+        padding-top: 24px;
+    }
+}

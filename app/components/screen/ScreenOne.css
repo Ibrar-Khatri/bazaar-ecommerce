@@ -1,0 +1,148 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.left_right_main {
+    display: flex;
+    width: 100%;
+}
+
+
+.Main_div_screen {
+    background-color: white;
+    margin-bottom: 60px;
+}
+
+.display_flex {
+    width: 200%;
+    padding-bottom: 32px;
+    display: flex;
+    transition: 1.5s linear;
+}
+
+.for_padding {
+    width: 100%;
+    overflow: hidden;
+    padding-top: 36px;
+}
+
+.heading_one {
+    margin-left: 14px;
+    font-size: 49px !important;
+    margin-bottom: 1.35rem;
+    color: rgb(68, 67, 67);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.left_side {
+    width: 36%;
+    padding: 56px 0px 0px 24px;
+}
+
+.right_side {
+    padding: 0px 0px 0px 44px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.para_50 {
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #316db6;
+    line-height: 1.75;
+}
+
+.Shop_Now {
+    font-size: 14px;
+    background-color: rgb(204, 63, 63);
+    color: white;
+    padding: 12px 28px;
+    margin-left: 20px;
+    border-radius: 5px;
+}
+
+.slider-buttons {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider-buttons>input {
+    width: 15px !important;
+}
+
+.radio {
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 1089px) {
+    .left_side {
+        width: 42%;
+    }
+}
+
+
+@media only screen and (max-width: 934px) {
+    .left_side {
+        width: 50%;
+    }
+
+    .right_side {
+        width: 45%;
+    }
+}
+
+@media only screen and (max-width: 810px) {
+    .right_side {
+        margin-top: 35px;
+    }
+}
+
+@media only screen and (max-width: 599px) {
+    .left_right_main {
+        display: block;
+    }
+
+    .left_side {
+        width: 100%;
+        padding: 0%;
+    }
+
+    .right_side {
+        width: 100%;
+    }
+
+    .heading_one {
+        font-size: 36px !important;
+        margin: 0;
+        font-weight: 300;
+    }
+
+    .para_50 {
+        margin-right: 37px;
+        margin-left: 0;
+    }
+
+    hr {
+        display: none;
+    }
+
+    .for_padding {
+        padding: 20px 0px 10px 10px;
+    }
+
+    .Shop_Now {
+        margin-top: 15px;
+        margin-left: 0;
+    }
+}
+
+@media only screen and (max-width: 374px) {
+    .right_side{
+        padding: 0;
+    }
+}
